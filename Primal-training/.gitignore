@@ -1,0 +1,89 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node / Package manager
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+bun.lockb
+package-lock.json    # ← optional: many teams ignore it if using yarn/pnpm
+yarn.lock            # ← optional: ignore if using npm/pnpm
+
+# Build outputs
+dist/
+build/
+.out/
+coverage/
+
+# Vite (very common with modern Tailwind + React)
+dist-ssr/
+*.local
+vite.config.*.local.*
+
+# Create React App / older setups
+/.pnp
+.pnp.js
+
+# Logs & temp files
+*.log
+*.log.*
+.DS_Store
+Thumbs.db
+
+# Environment variables (very important!)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor / OS files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# Testing / coverage
+.nyc_output/
+.lcov.info
+cypress/videos/
+cypress/screenshots/
+
+# Tailwind / PostCSS cache (sometimes appears)
+.postcssrc.*
+tailwindcss-*.cache
+
+# Optional: TypeScript
+*.tsbuildinfo
+
+# Optional: if using Playwright / other E2E
+test-results/
+playwright-report/
+blob-report/
