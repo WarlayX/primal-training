@@ -1,1 +1,29 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&family=Geist:wght@100..900&family=Geist+Mono:wght@100..900&display=swap');
+
+@theme {
+  --color-primary: #808CFD;
+  --color-primary-light: #E9ECFF;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+
+  --font-anek: 'Anek Tamil', sans-serif;
+  --font-instrument: 'Instrument Sans', sans-serif;
+  --font-geist: 'Geist', sans-serif;
+  --font-geist-mono: 'Geist Mono', monospace;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-geist);
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: var(--font-instrument);
+  }
+
+  a {
+    font-family: var(--font-geist-mono);
+  }
+}
