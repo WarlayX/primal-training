@@ -24,7 +24,7 @@ export default function GuidedBy() {
           </p>          
         </div>
 
-        <div className='bg-primary-light flex flex-col gap-1.5 p-5 border-b md:gap-12 md:w-[266.67px] md:border-r xl:w-[426.67px] xl:h-119.75 xl:gap-55 xl:pb-16.5'>
+        <div className='bg-primary-light flex flex-col gap-1.5 p-5 border-b md:gap-12 md:w-[266.67px] md:border-r xl:w-[426.67px] xl:h-119.75 xl:gap-55 xl:pb-16.5 md:border-l'>
           <h2 
             className='font-bold text-[28px] tracking-[-0.03em] xl:text-[36px]'>
             GUIDED BY EXPERTS

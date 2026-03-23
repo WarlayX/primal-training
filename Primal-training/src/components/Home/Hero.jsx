@@ -7,10 +7,7 @@ export default function Hero() {
 
       <h1 
         className="text-center font-extrabold tracking-[-0.05em] leading-none py-5 px-5 text-[30px] md:text-[70px] xl:text-[90px]">
-        TRAIN HARD. 
-        <span className="text-primary"> 
-          LIVE BETTER
-        </span>
+        TRAIN HARD.  <span className="text-primary">LIVE BETTER</span>
       </h1>
 
       <div className='md:flex md:justify-center mx-auto md:w-200 md:h-75 xl:w-7xl xl:h-120 xl:max-w-480 xl:max-h-180'>
