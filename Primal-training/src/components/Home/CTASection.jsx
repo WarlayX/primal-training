@@ -1,0 +1,21 @@
+export default function CTASection() {
+  return (
+    <section className="bg-primary">
+      <div className='text-center px-5 py-30 md:px-17.25 md:py-30 '>
+        <div className="h-106.25 flex flex-col justify-center items-center gap-4.5 md:h-52.75 md:gap-6 xl:h-120 xl:gap-10">
+          <p className='tracking-[-0.03em] leading-[1.00em] text-[15px] md:font-medium xl:text-[17px]'>
+            WHAT WE BELIEVE IN
+          </p>
+          <h3 className='tracking-[-0.05em] leading-[1.00em] font-extrabold text-[44px] md:text-[57px]'>
+            JOIN THE PRIMAL TRIBE TODAY!
+          </h3>
+          <div>
+            <button className='bg-primary-light rounded-[5px] px-4.25 py-3 cursor-pointer hover:text-white hover:bg-black transition-colors duration-300'>
+              RESERVE YOUR SPOT
+            </button>
+          </div>       
+        </div>
+      </div>
+    </section>
+  )
+}
