@@ -9,7 +9,7 @@ export default function AboutHero() {
       </h1>
 
       <div className='flex flex-col-reverse w-full md:flex-row md:m-auto xl:h-120 xl:max-h-180 xl:max-w-480' >
-        <div className='bg-primary px-5 py-7.5 md:w-1/2 xl:w-[66.65%]'>
+        <div className='bg-primary px-5 py-5 md:w-1/2 xl:w-[66.65%]'>
           <div className='flex flex-col justify-between gap-14 md:h-full '>
             <h2 className='font-extrabold text-[28px] tracking-[-0.03em] leading-[0.91em] md:text-[36px] xl:text-[45px]'> 
               TAP INTO YOUR PRIMAL POWER. FORGE A STRONGER YOU.
@@ -18,7 +18,7 @@ export default function AboutHero() {
               <h5 className='font-bold text-[22px] tracking-[-0.03em] leading-[1.31em]'>
                 OUR VISION
               </h5>
-              <p className='text-[15px] tracking-[-0.01em] leading-[1.31em] xl:text-[17px]'>
+              <p className='text-[15px] tracking-[-0.01em] leading-[1.31em] xl:text-[18px]'>
                 Primal Training is committed to delivering a training experience rooted in raw strength, functional fitness, and unwavering community support. We empower our members to tap into their primal power, achieve their goals, and live a life of strength, resilience, and unwavering determination.
               </p>
             </div>
