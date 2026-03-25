@@ -2,7 +2,7 @@ import AboutHero from '../components/about/AboutHero'
 import OurVision from '../components/about/OurVision'
 import DynamicGym from '../components/about/DynamicGym'
 import Reconnect from '../components/about/Reconnect'
-import CTASection from '../components/CTASection'
+import CTASection from '../components/Home/CTASection'
 
 export default function About() {
   return (
@@ -11,7 +11,7 @@ export default function About() {
       <OurVision />
       <DynamicGym />
       <Reconnect />
-      <CTASection />
+      <CTASection bg='bg-primary-light' Btnbg='bg-primary' />
     </div>
   )
 }
