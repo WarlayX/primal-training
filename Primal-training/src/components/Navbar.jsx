@@ -20,7 +20,7 @@ export default function Navbar() {
               <Link to="/">HOME</Link>
             </li>
             <li className='hover:text-gray-500 transition-colors duration-300'>
-                
+              <Link to="/about">ABOUT</Link>
             </li>
           </ul>
           <button className='bg-primary text-[14px] border rounded-md py-2 px-4 tracking-[-0.01em] cursor-pointer hover:bg-black hover:text-white transition-colors duration-300'>

@@ -1,7 +1,7 @@
-import AboutHero from '../components/about/AboutHero'
-import OurVision from '../components/about/OurVision'
-import DynamicGym from '../components/about/DynamicGym'
-import Reconnect from '../components/about/Reconnect'
+import AboutHero from '../components/About/AboutHero'
+import OurVision from '../components/About/OurVision'
+import DynamicGym from '../components/About/DynamicGym'
+import Reconnect from '../components/About/Reconnect'
 import CTASection from '../components/Home/CTASection'
 
 export default function About() {
