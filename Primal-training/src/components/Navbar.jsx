@@ -23,9 +23,11 @@ export default function Navbar() {
               <Link to="/about">ABOUT</Link>
             </li>
           </ul>
-          <button className='bg-primary text-[14px] border rounded-md py-2 px-4 tracking-[-0.01em] cursor-pointer hover:bg-black hover:text-white transition-colors duration-300'>
-            RESERVE YOUR SPOT
-          </button>
+          <Link to="/reserve">
+            <button className='bg-primary text-[14px] border rounded-md py-2 px-4 tracking-[-0.01em] cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 w-full'>
+              RESERVE YOUR SPOT
+            </button>
+          </Link>
         </div>
 
         <button onClick={() => setIsOpen(!isOpen)} className='md:hidden'>
@@ -47,9 +49,13 @@ export default function Navbar() {
             <Link to="/about">ABOUT</Link>
           </li>
         </ul>
-        <button className='bg-primary text-[14px] border rounded-md py-2 px-4 tracking-[-0.01em] cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 w-full'>
-          RESERVE YOUR SPOT
-        </button>
+        
+          <Link to="/reserve">
+            <button className='bg-primary text-[14px] border rounded-md py-2 px-4 tracking-[-0.01em] cursor-pointer hover:bg-black hover:text-white transition-colors duration-300 w-full'>
+              RESERVE YOUR SPOT
+            </button>
+          </Link> 
+        
       </div>
 
     </header>
