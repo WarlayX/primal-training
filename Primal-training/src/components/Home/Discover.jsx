@@ -9,10 +9,10 @@ export default function Discover() {
         JOIN THE<span className="text-primary"> COMMUNITY</span>
       </h1>
 
-      <div className='flex flex-col-reverse md:flex-row md:w-200 m-auto xl:w-7xl'>
+      <div className='flex flex-col-reverse w-full m-auto md:flex-row xl:h-150 xl:max-h-180 xl:max-w-480 '>
 
-        <div className='bg-primary-light md:w-100 xl:w-106.5'>
-          <div className='text-center leading-[0.91] tracking-[-0.08em] p-5 border-b md:px-3.75 md:py-5 md:h-25'>
+        <div className='bg-primary-light md:w-1/2 xl:w-[33.35%]'>
+          <div className='text-center leading-[0.91] tracking-[-0.08em] p-5 border-b md:px-3.75 md:py-5'>
             <h2 className='font-semibold text-[28px] text-left md:text-[36px] '>DISCOVER YOUR POTENTIAL</h2>
           </div>
 
@@ -51,7 +51,7 @@ export default function Discover() {
         </div>
         
 
-        <div className='md:w-100 xl:w-213.5 '>
+        <div className='w-full h-full md:h-auto md:w-1/2 xl:w-[66.65%]'>
           <img 
             src={DiscoverImage}
             alt="Discover Image"
