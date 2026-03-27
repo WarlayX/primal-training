@@ -9,7 +9,10 @@ export default function About() {
       <AboutHero />
       <DynamicGym />
       <Reconnect />
-      <CTASection bg='bg-primary-light' Btnbg='bg-primary' />
+      <CTASection 
+        bg='bg-primary-light' 
+        btnBg='bg-primary' 
+      />
     </div>
   )
 }
