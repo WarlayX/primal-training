@@ -3,17 +3,19 @@ import GuideBy from '../../assets/images/GuidedBy.png'
 export default function GuidedBy() {
   return (
     <section>
-      <div className='flex flex-col justify-center md:flex-row-reverse md:w-200 md:h-75 xl:w-7xl xl:h-120 xl:max-w-480 xl:max-h-180 mx-auto'>
+      <div className='flex flex-col w-full m-auto md:flex-row-reverse xl:h-120 xl:max-w-480 xl:max-h-180'>
 
-        <div>
+        <div className='w-full h-full md:h-auto md:w-[33.35%]'>
           <img 
             src={GuideBy} 
             alt="GuideBy Image"
-            className='h-119.75 w-full md:w-[266.67px] md:h-75 xl:w-[426.67px] xl:h-119.75'
+            className='w-full h-full object-cover'
           />
         </div>
 
-        <div className='bg-primary-light flex flex-col gap-1.5 p-5 border-b md:gap-12 md:w-[266.67px] xl:w-[426.67px] xl:h-119.75 xl:gap-55 xl:pb-16.5'>
+
+        
+        <div className='bg-primary-light flex flex-col gap-1.5 p-5 border-b md:gap-12 md:w-[33.35%] xl:h-119.75 xl:gap-55 xl:pb-16.5'>
           <h2 
             className='font-bold text-[28px] tracking-[-0.03em] xl:text-[36px]'>
             DYNAMIC OPEN GYM
@@ -24,7 +26,7 @@ export default function GuidedBy() {
           </p>          
         </div>
 
-        <div className='bg-primary-light flex flex-col gap-1.5 p-5 border-b md:gap-12 md:w-[266.67px] md:border-r xl:w-[426.67px] xl:h-119.75 xl:gap-55 xl:pb-16.5 md:border-l'>
+        <div className='bg-primary-light flex flex-col gap-1.5 p-5 border-b md:gap-12 md:w-[33.35%] md:border-r xl:h-119.75 xl:gap-55 xl:pb-16.5 md:border-l'>
           <h2 
             className='font-bold text-[28px] tracking-[-0.03em] xl:text-[36px]'>
             GUIDED BY EXPERTS
@@ -33,10 +35,12 @@ export default function GuidedBy() {
             className='text-[15px] leading-[1.31] tracking-[-0.01em] xl:text-[17px]'>
             We believe in creating a positive environment where you can thrive. We're here to help you achieve your goals and unlock your full potential.
           </p>
-        </div>
+        </div>  
+      
 
-        
-        
+
+
+
       </div>
     </section>
   )
