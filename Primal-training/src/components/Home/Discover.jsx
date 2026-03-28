@@ -51,7 +51,7 @@ export default function Discover() {
         </div>
         
 
-        <div className='w-full h-full md:h-auto md:w-1/2 xl:w-[66.65%]'>
+        <div data-aos="zoom-in" data-aos-delay="200" className='w-full h-full md:h-auto md:w-1/2 xl:w-[66.65%]'>
           <img 
             src={DiscoverImage}
             alt="Discover Image"

@@ -39,9 +39,9 @@ export default function Class () {
                 className="font-bold tracking-[-0.03em] leading-[0.91em] text-[30px] xl:text-[45px] ">
                 {classItem.title} 
               </h2>
-
               <div className="flex flex-col gap-6.25">
-                <p className={`pb-[8.44px] md:text-[17px] xl:text-[19px] tracking-[-0.03em] leading-[1.31em] ${classItem.schedule1 ? 'border-b' : ''}`}>
+                <p className={`pb-[8.44px] md:text-[17px] xl:text-[19px] tracking-[-0.03em] leading-[1.31em] 
+                  ${classItem.schedule1 ? 'border-b' : ''}`}>
                   {classItem.schedule1}
                 </p>
                 <p className="pb-[8.44px] border-b md:text-[17px] xl:text-[19px] tracking-[-0.03em] leading-[1.31em]"> {classItem.schedule2}</p>
@@ -50,7 +50,9 @@ export default function Class () {
 
             </div>
 
-            <button className="tracking-[0.01em] leading-[1.10em] bg-primary px-4.25 py-3 rounded-lg hover:bg-black hover:text-white duration-300 ">RESERVE YOUR SPOT</button>
+            <button className="tracking-[0.01em] leading-[1.10em] bg-primary px-4.25 py-3 rounded-lg hover:bg-black hover:text-white duration-300 ">
+              RESERVE YOUR SPOT
+            </button>
 
           </div>
         ))}

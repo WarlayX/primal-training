@@ -5,7 +5,7 @@ export default function GuidedBy() {
     <section>
       <div className='flex flex-col w-full m-auto md:flex-row-reverse xl:h-120 xl:max-w-480 xl:max-h-180'>
 
-        <div className='w-full h-full md:h-auto md:w-[33.35%]'>
+        <div data-aos="zoom-in" data-aos-delay="200" className='w-full h-full md:h-auto md:w-[33.35%]'>
           <img 
             src={GuideBy} 
             alt="GuideBy Image"

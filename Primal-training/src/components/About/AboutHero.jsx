@@ -25,7 +25,7 @@ export default function AboutHero() {
           </div>
         </div>
 
-        <div className='w-full h-58.25 md:w-1/2 md:h-auto xl:w-[33.35%] '>
+        <div data-aos="zoom-in" data-aos-delay="200" className='w-full h-58.25 md:w-1/2 md:h-auto xl:w-[33.35%] '>
           <img 
             src={AboutImage}
             alt="About Us"

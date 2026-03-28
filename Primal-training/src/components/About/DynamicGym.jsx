@@ -5,7 +5,7 @@ export default function DynamicGym() {
     <section>
       <div className='flex flex-col w-full md:flex-row md:m-auto md:h-93.75 xl:h-120 xl:max-h-180 xl:max-w-480'>
 
-        <div className='w-full h-58.25 md:w-1/2 md:h-auto xl:w-[66.65%]'>
+        <div data-aos="zoom-in" data-aos-delay="200" className='w-full h-58.25 md:w-1/2 md:h-auto xl:w-[66.65%]'>
           <img
             src={DynamicImage}
             alt="Dynamic Gym" 

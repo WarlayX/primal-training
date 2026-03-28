@@ -12,7 +12,7 @@ export default function Hero() {
 
       <div className='bg-primary-light flex flex-col w-full m-auto md:flex-row xl:h-120 xl:max-h-180 xl:max-w-480'>
 
-        <div className='w-full h-full md:h-auto md:w-[66.65%]'>
+        <div data-aos="zoom-in" data-aos-delay="100" className='w-full h-full md:h-auto md:w-[66.65%]'>
           <img 
             src={HeroImage} 
             alt="Hero Image" 
