@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ScrollToTop from './components/ScrollToTop';
 import MainLayout from "./layouts/MainLayout";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -17,6 +18,7 @@ export default function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <MainLayout >
         <Routes>
           <Route path="/" element={<Home />} />
