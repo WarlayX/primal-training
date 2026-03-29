@@ -1,4 +1,4 @@
-import DiscoverImage from '../../assets/images/discover.png';
+import DiscoverImage from '../../assets/images/Discover.png';
 
 export default function Discover() {
   return (
